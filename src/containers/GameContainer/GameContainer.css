@@ -1,0 +1,26 @@
+.ocean-container {
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.GameContainer .NotificationSection .AttempsTitle {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.ocean-container .ocean-block {
+  border-style: solid;
+  border-color: black;
+  background-color: aliceblue;
+  margin: 0.1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ocean-container .ocean-block.red {
+  background-color: red;
+}
+
+.ocean-container .ocean-block.darkgrey {
+  background-color: darkgrey;
+}
